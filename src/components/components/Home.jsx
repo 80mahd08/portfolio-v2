@@ -61,7 +61,7 @@ function Home() {
 				<TypingAnimationElement cursorColor="#9a33ff" speed={5} text="Mahdi" />
 			</h1>
 			<RespP>
-				I'm a junior full-stack developer with four years of experience in web
+				I'm a full-stack developer with four years of experience in web
 				development. Proficient in Next.js, React, TypeScript, Svelte,
 				JavaScript, CSS, Sass, node js , express js, and HTML, with exposure to
 				C and Python. Passionate about learning and contributing to innovative
@@ -75,21 +75,46 @@ function Home() {
 			</div>
 			<div className="experiences">
 				<h2>experience with</h2>
-				<div className="svgs">
-					<i class="devicon-react-original"></i>
-					<i class="devicon-nextjs-plain"></i>
-					<i class="devicon-svelte-plain"></i>
-					<i class="devicon-typescript-plain"></i>
-					<i class="devicon-javascript-plain"></i>
-					<i class="devicon-c-plain"></i>
-					<i class="devicon-python-plain"></i>
-					<i class="devicon-sass-original"></i>
-					<i class="devicon-css3-plain"></i>
-					<i class="devicon-html5-plain"></i>
-					<i class="devicon-nodejs-plain"></i>
-					<i class="devicon-threejs-original"></i>
-					<i class="devicon-express-original"></i>
-					<i class="devicon-mysql-original"></i>
+				<div className="icons">
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-line.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
+
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
 				</div>
 			</div>
 		</section>

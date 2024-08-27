@@ -192,15 +192,15 @@ section#home {
 		color: transparent;
 		text-transform: capitalize;
 	}
-	.svgs {
+	.icons {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 10px;
 		width: 100%;
-		i {
-			color: #c5c5c5;
-			font-size: 3rem;
+		img {
+			aspect-ratio: 1/1;
+			width: 50px;
 		}
 	}
 }
