@@ -43,7 +43,7 @@ function Home() {
 								margin: "0 auto",
 							}
 						)}>
-						<RespImg alt="me" src={me} />
+						<RespImg alt="Photo of me" src={me} />
 					</Circle>
 				</Circle>
 			</div>
@@ -76,45 +76,98 @@ function Home() {
 			<div className="experiences">
 				<h2>experience with</h2>
 				<div className="icons">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
+					<div data-icon-top="Next.js logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg"
+							alt="Next.js logo"
+						/>
+					</div>
+					<div data-icon-top="JavaScript logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
+							alt="JavaScript logo"
+						/>
+					</div>
+					<div data-icon-top="WebAssembly logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg"
+							alt="WebAssembly logo"
+						/>
+					</div>
+					<div data-icon-top="C language logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-line.svg"
+							alt="C language logo"
+						/>
+					</div>
+					<div data-icon-top="Python language logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+							alt="Python language logo"
+						/>
+					</div>
+					<div data-icon-top="React logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+							alt="React logo"
+						/>
+					</div>
+					<div data-icon-top="Svelte logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg"
+							alt="Svelte logo"
+						/>
+					</div>
+					<div data-icon-top="CSS 3 logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+							alt="CSS 3 logo"
+						/>
+					</div>
+					<div data-icon-top="SASS logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+							alt="SASS logo"
+						/>
+					</div>
+					<div data-icon-top="HTML 5 logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+							alt="HTML 5 logo"
+						/>
+					</div>
+					<div data-icon-top="PHP logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+							alt="PHP logo"
+						/>
+					</div>
+					<div data-icon-top="TypeScript logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"
+							alt="TypeScript logo"
+						/>
+					</div>
 
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-line.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
-
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+					<div data-icon-top="Vite.js logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+							alt="Vite.js logo"
+						/>
+					</div>
+					<div data-icon-top="GitHub logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+							alt="GitHub logo"
+							style={{ filter: "invert(100%)" }}
+						/>
+					</div>
+					<div data-icon-top="Git logo">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+							alt="Git logo"
+						/>
+					</div>
 				</div>
 			</div>
 		</section>

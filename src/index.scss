@@ -198,9 +198,33 @@ section#home {
 		justify-content: center;
 		gap: 10px;
 		width: 100%;
-		img {
-			aspect-ratio: 1/1;
-			width: 50px;
+		div {
+			display: inline-block;
+			width: fit-content;
+			height: fit-content;
+			transition: all 0.1s ease-in-out;
+			&:hover {
+				transform: scale(1.2);
+				&::before {
+					content: attr(data-icon-top);
+					position: absolute;
+					z-index: 1;
+					font-size: 10px;
+					width: 100px;
+					left: -23px;
+					border-radius: 20px;
+					top: -30px;
+					font-weight: bold;
+					background-image: linear-gradient(to right, #ff8660, #9a33ff);
+				}
+				img {
+					transform: scale(1.2);
+				}
+			}
+			img {
+				aspect-ratio: 1/1;
+				width: 50px;
+			}
 		}
 	}
 }

@@ -6,10 +6,12 @@ import FlexItemComp from "./components/FlexItemComp";
 import socialProofSectionIcon from "/Social-proof-section-proj.webp";
 import meetProjIcon from "/meet-proj.webp";
 import fhfReact from "/fhf-react.webp";
-import imgNotFound from "/image-not-found.webp";
+import fhfImage from "/fhf.webp";
+import fhfLinkedlist from "/fhf-linkedlist.webp";
 import fhfAgri from "/fhf-agri-fin.webp";
+import fhfDocsV2 from "/fhf-docs-v2.webp";
 
-export const projectList = [
+const projectList = [
 	{
 		aUrl: "https://pricing-proj.web.app",
 		imgUrl: pricingProjectIcon,
@@ -41,6 +43,12 @@ export const projectList = [
 		imgAlt: "Overview of the FHF-Agri website",
 	},
 	{
+		aUrl: "https://fhf-docs-v2.web.app/",
+		imgUrl: fhfDocsV2,
+		h3Content: "fhf Documentation website",
+		imgAlt: "web documentation for the FHF",
+	},
+	{
 		aUrl: "https://www.npmjs.com/package/fhf-react",
 		imgUrl: fhfReact,
 		h3Content: "FHF-React NPM Package",
@@ -48,13 +56,13 @@ export const projectList = [
 	},
 	{
 		aUrl: "https://www.npmjs.com/package/fhf-linkedlist",
-		imgUrl: imgNotFound,
+		imgUrl: fhfLinkedlist,
 		h3Content: "FHF-LinkedList NPM Package",
 		imgAlt: "Placeholder image for the FHF-LinkedList NPM package",
 	},
 	{
 		aUrl: "https://www.npmjs.com/package/fhf",
-		imgUrl: imgNotFound,
+		imgUrl: fhfImage,
 		h3Content: "FHF NPM Package",
 		imgAlt: "Placeholder image for the FHF NPM package",
 	},
